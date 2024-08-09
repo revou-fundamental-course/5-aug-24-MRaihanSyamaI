@@ -1,0 +1,44 @@
+form {
+    background-color: #efefef;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    padding: 48px;
+}
+
+.main-tittle {
+    text-align: center;
+}
+
+.btn{
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-input {
+    background-color: aqua;
+}
+
+.btn-reset {
+    background-color: white;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+}
