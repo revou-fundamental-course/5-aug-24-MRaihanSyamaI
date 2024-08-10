@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background video */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* Header */
+.main-tittle {
+    text-align: center;
+}
+
+/* Bagian Kiri */
+article {
+    margin: 2rem 0;
+}
+
 form {
     background-color: #efefef;
     padding: 10px;
@@ -9,10 +43,6 @@ main {
 
 aside {
     padding: 48px;
-}
-
-.main-tittle {
-    text-align: center;
 }
 
 .btn{
@@ -39,6 +69,7 @@ input[type=number] {
     box-sizing: border-box;
 }
 
+/* Bagian Bawah */
 footer {
     text-align: center;
 }

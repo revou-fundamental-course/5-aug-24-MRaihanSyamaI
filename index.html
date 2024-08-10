@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="particle/2646392-hd_1920_1080_30fps.mp4" type="video/mp4">
+    </video>
+
     <header>
         <h1 class="main-tittle">Kalkulator BMI</h1>
     </header>
 
     <main>
-        <aside>
-            <article>
+        <aside class="left">
+            <article class="description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repudiandae alias architecto nostrum a voluptas porro dolorum, modi nulla. Maiores delectus voluptatibus velit dolorum! Fuga magnam iure architecto animi recusandae?
                 Nostrum, cum eaque unde est repellat maxime earum alias magnam aliquam at. Rem dolores obcaecati placeat sint pariatur minus! Nemo aliquam impedit iusto vero? Aspernatur corrupti voluptatibus sapiente eveniet numquam.
                 </p>
             </article>
             
             <form>
-                <div>
+                <div class="jenisKelamin">
                     <p>Jenis Kelamin</p>
                     <input type="radio" name="jenisKelamin" id="pria">
                     <label for="pria">Pria</label>
@@ -28,39 +33,45 @@
                     <label for="wanita">Wanita</label>
                 </div>
     
-                <div>
+                <div class="beratBadan">
                     <p>Berat Badan <span>(Kg)</span></p>
                     <input type="number" name="weight" id="beratBadan">
                 </div>
 
-                <div>
+                <div class="umur">
                     <p>Umur <span>(tahun)</span></p>
                     <input type="number" name="age" id="umur">
                 </div>
     
-                <div>
+                <div class="tinggiBadan">
                     <p>Tinggi Badan <span>(cm)</span></p>
                     <input type="number" name="height" id="tinggiBadan">
                 </div>
-                <br>
+
                 <div class="form-btn-container">
                     <button class="btn btn-input">Hitung</button>
                     <button class="btn btn-reset">Reset</button>
                 </div>
             </form>
     
-            <article>
-                <h1>Form Information</h1>
-    
+            <article class="formInformation">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus mollitia labore pariatur vitae nesciunt, aperiam eos inventore quo repellat sint nisi quae voluptatibus odio, doloremque sapiente aliquam distinctio. Pariatur.
                 In qui neque commodi, vel facilis eum, rerum saepe sit blanditiis facere pariatur, ipsa quod sed quas? Quaerat ipsa quisquam corrupti reiciendis repudiandae molestiae. Dolor ullam vel nulla voluptatum doloremque!</p>
             </article>
         </aside>
 
-        <aside>
+        <aside class="right">
+            <div class="hasil">
+
+            </div>
+
+            <article>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt cum ipsum voluptas nobis perferendis ipsa sint recusandae optio delectus consequuntur in culpa, placeat molestias dicta enim, eum saepe fuga.
+                Sunt fuga et dolore maiores dolorum quae sit aspernatur odio error repellat! Distinctio delectus facere placeat! Sit tenetur cumque qui delectus? Dolore, corrupti? Unde, molestiae autem asperiores natus reprehenderit ipsa.
+            </article>
+
             <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente quidem, nostrum quos placeat maxime mollitia, adipisci iusto, error sed saepe sint ut id. Beatae, repellat accusamus? Modi, culpa quisquam?
-                Omnis et quisquam qui sapiente expedita hic quae, iure, cumque, laboriosam nam neque magnam at quas molestias aut optio ut beatae doloribus quam! Maiores, veritatis numquam harum exercitationem dolor dicta!</p>
+                
             </section>
         </aside>
     </main>
