@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
@@ -35,17 +36,20 @@
     
                 <div class="beratBadan">
                     <p>Berat Badan <span>(Kg)</span></p>
-                    <input type="number" name="weight" id="beratBadan">
+                    <input type="number" name="weight" id="beratBadan" min="0">
+                    <span class="material-symbols-outlined">edit</span>
                 </div>
 
                 <div class="umur">
                     <p>Umur <span>(tahun)</span></p>
-                    <input type="number" name="age" id="umur">
+                    <input type="number" name="age" id="umur" min="0" max="200">
+                    <span class="material-symbols-outlined">edit</span>
                 </div>
     
                 <div class="tinggiBadan">
                     <p>Tinggi Badan <span>(cm)</span></p>
-                    <input type="number" name="height" id="tinggiBadan">
+                    <input type="number" name="height" id="tinggiBadan" min="0">
+                    <span class="material-symbols-outlined">edit</span>
                 </div>
 
                 <div class="form-btn-container">
