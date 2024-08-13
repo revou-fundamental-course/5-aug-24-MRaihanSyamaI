@@ -31,7 +31,7 @@
     
                 <div>
                     <p>Berat Badan <span>(Kg)</span></p>
-                    <input type="number" name="weight" id="beratBadan" min="0">
+                    <input type="number" name="weight" id="beratBadan" min="0" pattern="[0-9]{2}\.[0-9]" placeholder="99.9">
                     <span class="material-symbols-outlined">edit</span>
                 </div>
 
@@ -43,13 +43,13 @@
     
                 <div>
                     <p>Tinggi Badan <span>(cm)</span></p>
-                    <input type="number" name="height" id="tinggiBadan" min="0">
+                    <input type="number" name="height" id="tinggiBadan" min="0" pattern="[0-9]{3}\.[0-9]" placeholder="999.9">
                     <span class="material-symbols-outlined">edit</span>
                 </div>
 
                 <div>
-                    <button class="btn btn-input" id="btnHitung">Hitung</button>
-                    <button class="btn btn-reset">Reset</button>
+                    <button  type="button" class="btn" id="btnInput">Hitung</button>
+                    <button  type="reset" class="btn" id="btnReset">Reset</button>
                 </div>
             </form>
     
@@ -61,7 +61,9 @@
 
         <aside class="right">
             <div class="hasil">
-
+                <p class="subjudul">Hasil Test BMI</p>
+                <p id="hasilPerhitungan">0</p>
+                <p class="status">Anda Memiliki Status Berat Badan yang Tergolong <span id="statusHasil">-</span></p>
             </div>
 
             <article>
@@ -79,7 +81,6 @@
     <footer>
         <p>Made by Ourself</p>
     </footer>
-
 
     <script src="js/script.js"></script>
 </body>
