@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap');
 
+/* Agar mempermudah perhitungan box */
 * {
     margin: 0;
     padding: 0;
@@ -68,6 +69,7 @@ input[type=number] {
     box-sizing: border-box;
 }
 
+/* Menempatkan icon edit */
 .material-symbols-outlined {
     position: absolute;
     margin: 1rem -1.875rem;
@@ -75,6 +77,7 @@ input[type=number] {
     color: black;
 }
 
+/* Menghilangkan tanda panah di input number */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
@@ -98,6 +101,7 @@ input[type="number"]::-webkit-outer-spin-button {
     background-color: rgba(17, 17, 137, 0.824);
 }
 
+/* Memberikan beberapa partikel di button */
 #btnInput::before {
     content: "";
     position: absolute;
@@ -157,6 +161,7 @@ input[type="number"]::-webkit-outer-spin-button {
     transition: all 0.25s;
 }
 
+/* Menjalankan transition di button */
 #btnReset:hover:before,
 #btnReset:hover::after {
     height: 100%;
@@ -207,6 +212,7 @@ footer {
     text-align: center;
 }
 
+/* Memberikan layout responsive untuk mobile */
 @media screen and (max-width: 768px) {
     main {
         flex-wrap: wrap;

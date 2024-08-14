@@ -9,17 +9,20 @@
 </head>
 <body>
     <header>
+        <!-- Memberikan Judul Utama -->
         <h1 class="main-tittle">Kalkulator BMI</h1>
     </header>
 
     <main>
         <aside class="left">
             <article class="description">
+                <!-- Memberikan Pengenalan di tentang Kalkulator BMI -->
                 <p>Berat Badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI</p>
             </article>
             
             <form>
                 <div class="jenisKelamin">
+                    <!-- Memberikan radio button agar dapat memilih salah satu -->
                     <p>Jenis Kelamin</p>
                     <input type="radio" name="jenisKelamin" id="pria">
                     <label for="pria">Pria</label>
@@ -28,30 +31,35 @@
                 </div>
     
                 <div>
+                    <!-- Memberikan input type Number untuk berat badan -->
                     <p>Berat Badan <span>(Kg)</span></p>
                     <input type="number" name="weight" id="beratBadan" min="0">
                     <span class="material-symbols-outlined">edit</span>
                 </div>
 
                 <div>
+                    <!-- Memberikan input type Number untuk umur -->
                     <p>Umur <span>(tahun)</span></p>
                     <input type="number" name="age" id="umur" min="0" max="200">
                     <span class="material-symbols-outlined">edit</span>
                 </div>
     
                 <div>
+                    <!-- Memberikan input type Number untuk tinggi badan -->
                     <p>Tinggi Badan <span>(cm)</span></p>
                     <input type="number" name="height" id="tinggiBadan" min="0">
                     <span class="material-symbols-outlined">edit</span>
                 </div>
 
                 <div>
+                    <!-- Memberikan button type selain submit agar halaman tidak merefresh saat button diklik-->
                     <button  type="button" class="btn" id="btnInput">Hitung</button>
                     <button  type="reset" class="btn" id="btnReset">Reset</button>
                 </div>
             </form>
     
             <article class="formInformation">
+                <!-- Memberikan Informasi soal keunggulan fitur -->
                 <p>Keungulan Fitur</p>
                 <ol>
                     <li>Menghitung berat badan</li>
@@ -62,12 +70,14 @@
 
         <aside class="right">
             <div class="hasil">
+                <!-- Menampilkan tampilan hasil dari perhitungan -->
                 <p class="subjudul">Hasil Test BMI</p>
                 <p id="hasilPerhitungan">0</p>
                 <p class="status">Anda Memiliki Status Berat Badan yang Tergolong <span id="statusHasil">-</span></p>
             </div>
 
             <article>
+                <!-- Memberikan sedikit keterangan penjelas -->
                 <p>Hasil BMI diantara <span id="statusRange">-</span></p>
                 <p>Anda berada dalam katagori berat badan <span id="statusHasilKet">-</span></p>
                 <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dari kekhawatiran Anda terkait dengan berat badan Anda.</p>
