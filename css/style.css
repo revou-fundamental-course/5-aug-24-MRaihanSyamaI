@@ -207,8 +207,13 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     main {
+        flex-wrap: wrap;
         flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
     }
 }
